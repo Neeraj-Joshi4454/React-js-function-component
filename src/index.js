@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import User from './components/User';
+import Demo from './components/Demo';
+import New1 from './components/New1';
+import New2 from './components/New2';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <User/>
+    <Demo/>
+    <New1/>
+    <New2/>
   </React.StrictMode>,
   document.getElementById('root')
 );
